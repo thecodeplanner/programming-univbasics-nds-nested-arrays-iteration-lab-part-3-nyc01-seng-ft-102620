@@ -4,7 +4,7 @@ def join_nested_strings(src)
   while row_index < src.length do 
     element_index = 0 
     while element_index < src[row_index].length do
-        if src[element_index][row_index].class === String
+        if src[element_index][row_index].class == String
           new_string << src[element_index][row_index]
     end
     element_index += 1
