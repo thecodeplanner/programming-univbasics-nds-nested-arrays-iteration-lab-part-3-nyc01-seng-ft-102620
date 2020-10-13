@@ -10,8 +10,9 @@ def join_nested_strings(src)
     element_index += 1
   end
     row_index += 1
-    new_string
+    
   end
+  new_string
 end
 
   # src will be an Array of Arrays of Strings and Integers
